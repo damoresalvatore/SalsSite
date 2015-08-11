@@ -1,6 +1,7 @@
 function launch() {
   $(document).ready(function() {
-  var i = 0;
+//    $('#chat').css("height",$(window).height());  
+    var i = 0;
       
      $('#dragbar').mousedown(function(e){
 

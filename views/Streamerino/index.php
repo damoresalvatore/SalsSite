@@ -28,6 +28,6 @@
 <div id="main">
     <div id ="chat">
     	<!-- Embeded chat, to be replaced by my own in the future -->
-			<iframe src="http://www.twitch.tv/upatreezelda/chat" frameborder="0" scrolling="no" height=100% width=100% id="actChat"></iframe>
+			<iframe src="http://www.twitch.tv/upatreezelda/chat" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
 	</div>
 </div>

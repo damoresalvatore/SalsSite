@@ -14,7 +14,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/views/Streamerino/">Streamerino</a></li>  
+            <li><a href="/views/Streamerino/">Streamerino</a></li> 
+            <li><a href="http://www.twitter.com/UpATreeZelda">Twitter</a></li>
+            <li><a href="http://www.facebook.com/UpATreeZelda">Facebook</a></li>
           </ul>
 <!--Use if we want things on the right.-->
             

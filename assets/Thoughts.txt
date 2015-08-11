@@ -1,0 +1,18 @@
+Goals:
+    Setup Stats.
+    Titles
+
+Second computer to update the square info once a day.
+    Square.
+    
+Setup marathon ticker
+
+Setup ftp to site, overwrite the incentives and such.
+
+User friendly way to update completed goals.
+
+Begin work on marathon portion of the site.
+
+Sc2replaystats included.
+
+Friends and family streams included.

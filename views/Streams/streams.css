@@ -14,6 +14,11 @@ html,body {
 /*    background-color:red;*/
 }
 
+#streaminfo {
+    background-color: rgba(5,5,5,.5);
+    height: 400px;
+}
+
 #chat {
     padding-top: 0;
     padding-right: 0;
@@ -36,6 +41,7 @@ html,body {
     padding-right: 0px;
 }
 
+/*Everything on the left side of the screen*/
 #maincontent {
     width:80%;
     padding-right:20%;
@@ -60,26 +66,31 @@ html,body {
     margin-top: 1px;
     margin-bottom: 1px;     
     padding-top: 0px;
-    padding-left: 3px;
+    padding-left: 10px;
     white-space: nowrap;
     overflow: hidden;
-    color: white;
+    color: whitesmoke;
+    font-family: Impact;
 }
 
 .row p {
     margin-top: 6px;
     padding-top: 0px;
     margin-bottom: 6px;
-    color: white;
-    padding-left: 3px;
+    color: tan;
+    padding-left: 10px;
 }
 
 .row h4 {
     margin-top: 1px;
     padding-top: 0px;
     margin-bottom: 1px;
-    color: white;
-    padding-left: 3px;
+    color: saddlebrown;
+    padding-left: 10px;
+}
+
+.songinfo {
+    width:70%;
 }
 
 @media screen and (max-width: 800px)
