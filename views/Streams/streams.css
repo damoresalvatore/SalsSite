@@ -1,6 +1,7 @@
 html,body {
     height:100%;
     background-color: rgb(25, 25, 52);
+    width: 99%;
 }
 
 .col-md-3 img {
@@ -10,24 +11,105 @@ html,body {
     padding-bottom: 10px;
 }
 
-#stream2 {
+.streamtitle {
+    background-color:rgba(5,5,5,.5);
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    width: calc(100% - 15px);
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
+#stream{
+    height: 400px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(5,5,5,.5);
+}
+
+.stream2 {
+    margin-right: 0px;
+    padding-right: 0px;
+    height: 400px;
+
 /*    background-color:red;*/
 }
 
 #streaminfo {
     background-color: rgba(5,5,5,.5);
-    height: 400px;
+/*    height: 100px;*/
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 
-#chat {
+#status {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: Impact;
+    font-weight: bold;
+}
+
+#gametitle{
+    margin-right: 10px;
+    font-size: 20px;
+    color: tan;
+}
+
+#testviewer {
+/*    text-align:center;*/
+    padding-bottom: 10px;
+    text-align: left;
+    color: tan;
+/*    font-family: Arial;*/
+/*    font-weight: bold;*/
+    color: saddlebrown;
+}
+
+.chat {
+    position: fixed;
     padding-top: 0;
     padding-right: 0;
     padding-left: 0;
+    right: 0px;
+    width: 20%;
+    z-index: 10;
+    height: calc(100% - 115px);
+}
+
+#actChat {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-color: black;
+    background-color: #19191f;
+    height: calc(100%);
+}
+
+
+#enterbar {
+    bottom: 0px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.chatentry {
     position: fixed;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
     bottom: 0px;
     right: 0px;
     width: 20%;
-    height: calc(100% - 1px);
+    height: 165px;
 }
 
 .row {
@@ -35,10 +117,14 @@ html,body {
 }
 
 #twitterino {
-    background-color: rgba(5,5,5,.5);
+/*    background-color: rgba(5,5,5,.5);*/
     width:100%;
     height: 300px;
-    padding-right: 0px;
+}
+
+#twitterblock {
+    background-color: rgba(5,5,5,.5);;
+
 }
 
 /*Everything on the left side of the screen*/
@@ -93,8 +179,18 @@ html,body {
     width:70%;
 }
 
-@media screen and (max-width: 800px)
+@media screen and (max-width: 991px)
 {
+        #twitterino {
+            margin-right: 0px;
+            right: 0px;
+        }
+    
+        #twitterblock {
+            margin-right: -15px;
+            margin-bottom: 5px;
+        }
+    
         #songs {
             margin-left: 15px;
         }
@@ -103,9 +199,11 @@ html,body {
             padding-right: 0px;
         }
     
-        #chat {
+        .chat {
             display: none;
         }
     
-
+        .chatentry {
+            display: none;
+        }
 }

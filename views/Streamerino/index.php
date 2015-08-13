@@ -26,8 +26,11 @@
     
 </div>
 <div id="main">
-    <div id ="chat">
-    	<!-- Embeded chat, to be replaced by my own in the future -->
-			<iframe src="http://www.twitch.tv/upatreezelda/chat" frameborder="0" scrolling="no" height="100%" width="100%"></iframe>
-	</div>
+    <div class="chat">
+        <iframe src="https://www.nightdev.com/hosted/obschat/?theme=&channel=upatreezelda&fade=false&bot_activity=false" frameborder="0" scrolling="no" width=100% id="actChat" padding=0%></iframe>
+    </div>
+    
+    <div class="chatentry">
+        <iframe src="http://www.twitch.tv/UpATreeZelda/chat" frameborder="0" scrolling="no" width=100% height=180px; padding=0% id="enterbar"></iframe>
+    </div>
 </div>

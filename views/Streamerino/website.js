@@ -8,7 +8,8 @@ function launch() {
           // Because of some weird reasoning, you lose the ability to slide over when you hover over
           // the twitch stream. For this reason you hide everything but the bar when sliding
           $('#stream').css("visibility","hidden");
-          $('#chat').css("visibility","hidden");
+          $('#actChat').css("visibility","hidden");
+         $('#enterbar').css("visibility","hidden");
 
           e.preventDefault();
 
@@ -24,8 +25,8 @@ function launch() {
      $(document).mouseup(function(e){
          // Show everything again
          $('#stream').css("visibility","visible");
-         $('#chat').css("visibility","visible");
-         
+         $('#actChat').css("visibility","visible");
+         $('#enterbar').css("visibility","visible");
          $(document).unbind('mousemove');
         });
   });
