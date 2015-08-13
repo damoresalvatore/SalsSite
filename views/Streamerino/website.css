@@ -60,7 +60,7 @@ form {
     right: 0px;
     width: 100%;
     z-index: 10;
-    height: calc(100% - 115px);
+    height: 100%;
 }
 
 #actChat {
@@ -70,21 +70,3 @@ form {
     background-color: #19191f;
     height: calc(100%);
 }
-
-
-#enterbar {
-    bottom: 0px;
-    overflow: hidden;
-}
-
-.chatentry {
-    position: absolute;
-    padding-top: 0;
-    padding-right: 0;
-    padding-left: 0;
-    bottom: 0px;
-    right: 0px;
-    width: 100%;
-    height: 180px;
-}
-

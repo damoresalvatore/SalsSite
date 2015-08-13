@@ -83,7 +83,7 @@ html,body {
     right: 0px;
     width: 20%;
     z-index: 10;
-    height: calc(100% - 115px);
+    height: 100%
 }
 
 #actChat {
@@ -92,24 +92,6 @@ html,body {
     border-color: black;
     background-color: #19191f;
     height: calc(100%);
-}
-
-
-#enterbar {
-    bottom: 0px;
-    overflow: hidden;
-    height: 100%;
-}
-
-.chatentry {
-    position: fixed;
-    padding-top: 0;
-    padding-right: 0;
-    padding-left: 0;
-    bottom: 0px;
-    right: 0px;
-    width: 20%;
-    height: 165px;
 }
 
 .row {

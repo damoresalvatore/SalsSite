@@ -19,12 +19,8 @@
     
 <!--  What follows is the biggest cluster fuck. But it works  -->
     
-    <div class="chatentry">
-        <iframe src="http://www.twitch.tv/UpATreeZelda/chat" frameborder="0" scrolling="no" width=100% height=220px; padding=0% id="enterbar"></iframe>
-    </div>
-    
     <div class="chat">
-        <iframe src="https://www.nightdev.com/hosted/obschat/?theme=&channel=upatreezelda&fade=false&bot_activity=false" frameborder="0" scrolling="no" width=100% id="actChat" padding=0%></iframe>
+        <iframe src="http://www.twitch.tv/UpATreeZelda/chat" frameborder="0" scrolling="no" width=100% id="actChat" padding=0%></iframe>
     </div>
     
     <div class="contentframe">
