@@ -27,6 +27,6 @@
 </div>
 <div id="main">
     <div class="chat">
-        <iframe src="http://www.twitch.tv/UpATreeZelda/chat" frameborder="0" scrolling="no" width=100% id="actChat" padding=0%></iframe>
+        <iframe src="http://www.twitch.tv/upatreezelda/chat" frameborder="0" scrolling="no" width=100% id="actChat" padding=0%></iframe>
     </div>
 </div>

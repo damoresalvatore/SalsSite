@@ -1,6 +1,6 @@
 html,body {
     height:100%;
-    background-color: rgb(25, 25, 52);
+    background-color: #203962;
     width: 99%;
 }
 
@@ -12,7 +12,7 @@ html,body {
 }
 
 .streamtitle {
-    background-color:rgba(5,5,5,.5);
+    background-color:#083962;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
@@ -30,7 +30,7 @@ html,body {
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(5,5,5,.5);
+    background-color: rgba(5,5,5,1 );
 }
 
 .stream2 {
@@ -42,7 +42,7 @@ html,body {
 }
 
 #streaminfo {
-    background-color: rgba(5,5,5,.5);
+    background-color: #083962;
 /*    height: 100px;*/
     margin-left: 15px;
     margin-bottom: 5px;
@@ -105,8 +105,8 @@ html,body {
 }
 
 #twitterblock {
-    background-color: rgba(5,5,5,.5);;
-
+    background-color: #134572;
+    height: 300px;
 }
 
 /*Everything on the left side of the screen*/
@@ -116,7 +116,7 @@ html,body {
 }
 
 #songs {
-    background-color: rgba(5,5,5,.5);
+    background-color: #134572;
     height: 300px;
 }
 
