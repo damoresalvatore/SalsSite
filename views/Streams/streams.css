@@ -145,6 +145,7 @@ html,body {
 }
 
 #songs {
+    text-overflow: clip;
     background-color: #000d1f;
     height: 300px;
     padding-left: 5px;
@@ -192,6 +193,7 @@ html,body {
 }
 
 .songinfo {
+    overflow: hidden;
     width:70%;
 }
 
@@ -203,20 +205,50 @@ html,body {
     padding: 0px;
 }
 
-.sc2replaystats {
-    text-align: center;
-    margin-top: 5px;
+.border2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Common/assets/b1.png);
+    background-position: center;
+    padding: 0px;
+}
+
+.replaytitle {
     background-color:#000d1f;
-/*
-    padding-right: 5px;
-    padding-left: 5px;
-*/
-    height: 200px;
+    padding-right: 0px;
+    padding-left: 0px;
     margin-right: 0px;
-/*    margin-left: 15px;*/
-/*    width: calc(100% - 15px);*/
+    margin-left: 15px;
+    margin-top:5px;
     text-align: center;
     font-size: 30px;
+    width:calc(100% - 15px);
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
+.sc2replaystats {
+    text-align: center;
+    background-color:#000d1f;
+    height: 200px;
+    margin-right: 0px;
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
+.downloadlink {
+    background-color:#000d1f;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 30px;
+    width:calc(100% - 15px);
     overflow: hidden;
     color: whitesmoke;
     font-family: Impact;

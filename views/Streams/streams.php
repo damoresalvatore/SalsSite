@@ -147,6 +147,12 @@
 
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 replaytitle">
+                        Last Match                   
+                    </div>
+                </div>
+            
                 <div class="row" style="margin-left:0px;">
                     <div class="col-xs-3 sc2replaystats">
                         <div class="border">
@@ -154,19 +160,25 @@
                     </div>
                     <div class="col-xs-3 sc2replaystats">
                         <div style="top:70px;position:absolute;text-align:center;left:0px;">
-                            IIIIIIIIIIIII
+                            <a id="playerone">IIIIIIIIII</a>
                         </div>
                     </div>
                     <div class="col-xs-3 sc2replaystats">
                         <div style="top:70px;position:absolute;right:0px;">
-                            IIIIIIIIIIIII
+                            <a id="playertwo">IIIIIIIIII</a>
                         </div>
                     </div>
                     <div class="col-xs-3 sc2replaystats">
-                        <div class="border">
+                        <div class="border2">
                         </div>
                     </div>          
-                    
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 downloadlink">
+                        <a id="downloadlinks">
+                            Download
+                        </a>                    
+                    </div>
                 </div>
         </div>
 
