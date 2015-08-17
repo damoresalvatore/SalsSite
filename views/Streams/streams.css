@@ -1,6 +1,6 @@
 html,body {
     height:100%;
-    background-color: #203962;
+    background-color: #404040;
     width: 99%;
 }
 
@@ -12,7 +12,7 @@ html,body {
 }
 
 .streamtitle {
-    background-color:#083962;
+    background-color:#000d1f;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0px;
@@ -42,7 +42,7 @@ html,body {
 }
 
 #streaminfo {
-    background-color: #083962;
+    background-color: #000d1f;
 /*    height: 100px;*/
     margin-left: 15px;
     margin-bottom: 5px;
@@ -98,6 +98,35 @@ html,body {
 /*    background-color: aqua;*/
 }
 
+.twittertitle {
+    background-color:#000d1f;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 15px;
+    width: calc(100% - 30px);
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
+.songtitle {
+    background-color:#000d1f;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: -10px;
+/*    width: calc(10wwwwwwwww0% - 30px);*/
+    text-align: center;
+    font-size: 30px;
+    width:calc(100% + 10px);
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
 #twitterino {
 /*    background-color: rgba(5,5,5,.5);*/
     width:100%;
@@ -105,7 +134,7 @@ html,body {
 }
 
 #twitterblock {
-    background-color: #134572;
+    background-color: #000d1f;
     height: 300px;
 }
 
@@ -116,36 +145,41 @@ html,body {
 }
 
 #songs {
-    background-color: #134572;
+    background-color: #000d1f;
     height: 300px;
+    padding-left: 5px;
 }
 
 .album {
-    background-color: azure;
+    background-color: #080022;
+/*
     border-style: solid;
     border-color: black;
     border-width: 2px;
+*/
     height: 100px;
     width: 100px;
     background-size: 100% 100%;
 }
 
-.row h1 {
+.row a {
     margin-top: 1px;
     margin-bottom: 1px;     
     padding-top: 0px;
     padding-left: 10px;
     white-space: nowrap;
+    font-size: 30px;
     overflow: hidden;
     color: whitesmoke;
     font-family: Impact;
+    text-decoration: none;
 }
 
 .row p {
     margin-top: 6px;
     padding-top: 0px;
     margin-bottom: 6px;
-    color: tan;
+    color: #c3c3c3;
     padding-left: 10px;
 }
 
@@ -153,7 +187,7 @@ html,body {
     margin-top: 1px;
     padding-top: 0px;
     margin-bottom: 1px;
-    color: saddlebrown;
+    color: #b87dc3;
     padding-left: 10px;
 }
 
@@ -161,11 +195,47 @@ html,body {
     width:70%;
 }
 
+.border {
+    height: 100%;
+    width: 100%;
+    background-image: url(../Common/assets/b1.png);
+    background-position: center;
+    padding: 0px;
+}
+
+.sc2replaystats {
+    text-align: center;
+    margin-top: 5px;
+    background-color:#000d1f;
+/*
+    padding-right: 5px;
+    padding-left: 5px;
+*/
+    height: 200px;
+    margin-right: 0px;
+/*    margin-left: 15px;*/
+/*    width: calc(100% - 15px);*/
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    color: whitesmoke;
+    font-family: Impact;
+}
+
 @media screen and (max-width: 991px)
 {
         #twitterino {
             margin-right: 0px;
             right: 0px;
+        }
+    
+        .songtitle {
+            margin-left: 15px;
+            width: calc(100% - 15px);
+        }
+    
+        .twittertitle {
+            width: calc(100% - 15px);
         }
     
         #twitterblock {
@@ -188,4 +258,11 @@ html,body {
         .chatentry {
             display: none;
         }
+    
+        #songs {
+            background-color: #000d1f;
+            height: 300px;
+            width:calc(100% - 15px);
+            padding-left: 15px;
+        }   
 }
