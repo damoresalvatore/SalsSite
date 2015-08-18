@@ -39,7 +39,7 @@
         <div class="container" id="maincontent">
                 <div class="row" >
 <!--                The title for the stream, located above the stream itself    -->
-                    <div class="col-xs-12 streamtitle">
+                    <div class="col-xs-12 streamtitle backaccents">
                         hello
                     </div>
                     
@@ -52,7 +52,7 @@
                        
                 </div>
                 <div class="row" style="margin-right:0px;">
-                    <div class="col-xs-12" id="streaminfo">
+                    <div class="col-xs-12 backaccents" id="streaminfo">
                         <div class="row">
                             <div class="col-xs-12">
                                 <div id="status">
@@ -76,14 +76,14 @@
                     <div class="col-md-5">
 <!--               Twitterino widget -->
                         <div class="row">
-                            <div class="col-xs-12 twittertitle">
+                            <div class="col-xs-12 twittertitle backaccents">
                                 Twitter                    
                             </div>
                         </div>
                         
                         <div class="row">
                             <div class="col-xs-12 ">
-                            <div id="twitterblock">
+                            <div class="backaccents" id="twitterblock">
                                 <a id="twitterino" class="twitter-timeline" href="https://twitter.com/UpATreeZelda" data-widget-id="630845999984934912" data-chrome="transparent noheader nofooter noborders noscrollbar" data-aria-polite="assertive">Tweets by @UpATreeZelda</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                             </div>
@@ -94,53 +94,53 @@
                     <div class="col-md-7">
                         
                         <div class="row">
-                            <div class="col-xs-12 songtitle">
+                            <div class="col-xs-12 songtitle backaccents">
                                 Music                    
                             </div>
                         </div>
                         
                         <div class="row">
-                            <div class="col-xs-12" id="songs">
+                            <div class="col-xs-12 backaccents" id="songs">
                                 <!--                    Row 1 Songs    -->                    
-                        <div class="row song" style="height:100px;">
-                            <div class="col-xs-3 album" id="album1">
+                                <div class="row song" style="height:100px;">
+                                    <div class="col-xs-3 album" id="album1">
 
-                            </div>
-                            <div class="col-xs-9 songinfo">
-                                <div class="row">
-                                    <a id="songtitle1">A Title</a>
-                                    <p id="artist1">Weowth</p>
-                                    <h4 id="albumtext1">DRE DAY</p>
+                                    </div>
+                                    <div class="col-xs-9 songinfo">
+                                        <div class="row">
+                                            <a id="songtitle1">A Title</a>
+                                            <p id="artist1">Weowth</p>
+                                            <h4 class="albumtext" id="albumtext1">DRE DAY</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-    <!--                Row 2 Songs    -->
-                        <div class="row song" style="height:100px;">
-                            <div class="col-xs-3 album" id="album2">
+            <!--                Row 2 Songs    -->
+                                <div class="row song" style="height:100px;">
+                                    <div class="col-xs-3 album" id="album2">
 
-                            </div>
-                            <div class="col-xs-9 songinfo">
-                                <div class="row">
-                                    <a id="songtitle2">Another Title</a>
-                                    <p id="artist2">Weowth</p>
-                                    <h4 id="albumtext2">DRE DAY</p>
+                                    </div>
+                                    <div class="col-xs-9 songinfo">
+                                        <div class="row">
+                                            <a id="songtitle2">Another Title</a>
+                                            <p id="artist2">Weowth</p>
+                                            <h4 class="albumtext" id="albumtext2">DRE DAY</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-    <!--                Row 3 Songs    -->
-                        <div class="row song" style="height:100px;">
-                            <div class="col-xs-3 album" id="album3">
+            <!--                Row 3 Songs    -->
+                                <div class="row song" style="height:100px;">
+                                    <div class="col-xs-3 album" id="album3">
 
-                            </div>
-                            <div class="col-xs-9 songinfo">
-                                <div class="row">
-                                    <a id="songtitle3">The Last Title</a>
-                                    <p id="artist3">Weowth</p>
-                                    <h4 id="albumtext3">DRE DAY</p>
+                                    </div>
+                                    <div class="col-xs-9 songinfo">
+                                        <div class="row">
+                                            <a id="songtitle3">The Last Title</a>
+                                            <p id="artist3">Weowth</p>
+                                            <h4 class="albumtext" id="albumtext3">DRE DAY</p>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
                             </div>
                         </div>
                         
@@ -148,33 +148,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 replaytitle">
+                    <div class="col-xs-12 replaytitle backaccents">
                         Last Match                   
                     </div>
                 </div>
             
                 <div class="row" style="margin-left:0px;">
-                    <div class="col-xs-3 sc2replaystats">
+                    <div class="col-xs-3 sc2replaystats backaccents">
                         <div class="border">
                         </div>
                     </div>
-                    <div class="col-xs-3 sc2replaystats">
+                    <div class="col-xs-3 sc2replaystats backaccents">
                         <div style="top:70px;position:absolute;text-align:center;left:0px;">
                             <a id="playerone">IIIIIIIIII</a>
                         </div>
                     </div>
-                    <div class="col-xs-3 sc2replaystats">
+                    <div class="col-xs-3 sc2replaystats backaccents">
                         <div style="top:70px;position:absolute;right:0px;">
                             <a id="playertwo">IIIIIIIIII</a>
                         </div>
                     </div>
-                    <div class="col-xs-3 sc2replaystats">
+                    <div class="col-xs-3 sc2replaystats backaccents">
                         <div class="border2">
                         </div>
                     </div>          
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 downloadlink">
+                    <div class="col-xs-12 downloadlink backaccents">
                         <a id="downloadlinks">
                             Download
                         </a>                    
