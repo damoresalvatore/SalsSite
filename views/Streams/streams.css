@@ -141,6 +141,7 @@ html,body {
 
 #twitterblock {
     height: 300px;
+    overflow: hidden;
 }
 
 #songs {

@@ -1,10 +1,12 @@
 function launch() {
+    var weow = true;
+    var oldPositionSideBar = 0;
+    var oldPositionMainBar = 0;
   $(document).ready(function() {
 //    $('#chat').css("height",$(window).height());  
     var i = 0;
-      
      $('#dragbar').mousedown(function(e){
-
+        weow = true;
           // Because of some weird reasoning, you lose the ability to slide over when you hover over
           // the twitch stream. For this reason you hide everything but the bar when sliding
           $('#stream').css("visibility","hidden");
@@ -30,9 +32,27 @@ function launch() {
          $(document).unbind('mousemove');
         });
   });
+
     $( window ).resize(function() {
-        $('#sidebar').css("width",$(window).width()*.8+2);
-        $('#main').css("left",$(window).width()*.8+2);
-        $('#stream').css("width",$(window).width()*.8-3);
+        console.log(weow);
+        if (weow == true) {
+                oldPositionSideBar = $("#sidebar").width()/$(window).width();
+                oldPositionMainBar = $("#main").width()/$(window).width();
+            weow = false;
+        }
+        
+        var sidebarWidth = oldPositionSideBar*$(window).width();
+        var mainbarWidth = oldPositionMainBar*$(window).width();
+        
+        console.log(weow);
+        
+        console.log(oldPositionMainBar);
+        console.log(oldPositionSideBar);
+        
+        $('#sidebar').css("width",sidebarWidth);
+        $('#stream').css("width",sidebarWidth-5);
+        $('#main').css("left",sidebarWidth);
+//        $('#main').css("width",mainbarWidth);
+//        $('#stream').css("width",$("#stream").width()/$(window).width()-3);
     });
 }
