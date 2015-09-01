@@ -21,7 +21,7 @@ function addTable(whichOne) {
         
         for(j=0;j<currentgame.incentives.length;j++){
             money = currentgame.incentives[j].money + calculations;
-            if (money < 0) {
+            if (money <= 0) {
                 moneyTxt = "None";
             } else {
                 moneyTxt = "" + money + "$";
@@ -29,6 +29,7 @@ function addTable(whichOne) {
             
             if (currentgame.incentives[j].complete == true) {
                 reachedTxt ="Reached!";
+                moneyTxt = "None";
             } else {
                 reachedTxt ="Almost!";
             }
