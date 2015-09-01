@@ -4,6 +4,7 @@
     
     <script src="../../assets/jquery-2.1.1.js"></script>
     <script src="../../assets/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script src="marathon.js"></script>
     <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-3.3.4-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="marathon.css">
 </head>
@@ -16,6 +17,8 @@
         <div class="row" style="height:60px">
             
         </div>
+<!--   Add stream and total here    -->
+        
         <div class="row">
             <div class="col-md-5 bckgrdItems" style="height:300px">
                 <p><br>Welcome to the 2015 Touring Hyrule: Summer<br><br>
@@ -92,7 +95,7 @@
         <div class="row">
             <div class="col-md-6 bckgrdItems">
                 <h1 style="text-align:center;">The Legend Of Zelda</h1>
-                <table class="table table-striped" id="TLOZ">
+                <table class="table table-striped" id="TLOZ0">
                     <thead>
                       <tr>
                         <th>Incentive</th>
@@ -104,12 +107,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        var currentgame = result.games[0];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(0);
                 </script>
             </div>
             <div class="col-md-5 col-md-offset-1 bckgrdItems">
@@ -126,12 +124,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        var currentgame = result.games[1];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ1 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(1);
                 </script>
             </div>
             <div class="col-md-5 bckgrdItems">
@@ -148,12 +141,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        var currentgame = result.games[2];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ2 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(2);
                 </script>
             </div>
             <div class="col-md-6 col-md-offset-1 bckgrdItems">
@@ -170,12 +158,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        var currentgame = result.games[3];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ3 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(3);
                 </script>
             </div>
             <div class="col-md-6 bckgrdItems">
@@ -192,13 +175,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        console.log(result);
-                        var currentgame = result.games[4];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ4 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(4);
                 </script>
             </div>
             <div class="col-md-5 col-md-offset-1 bckgrdItems">
@@ -215,13 +192,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        console.log(result);
-                        var currentgame = result.games[5];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ5 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(5);
                 </script>
             </div>
             <div class="col-md-12 bckgrdItems">
@@ -238,13 +209,7 @@
                     </tbody>
                   </table>
                 <script>
-                    $.getJSON("general.json", function(result){
-                        console.log(result);
-                        var currentgame = result.games[6];
-                        for(j=0;j<currentgame.incentives.length;j++){
-                            ($("#TLOZ6 tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+currentgame.incentives[j].money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
-                        }
-                    });
+                    addTable(6);
                 </script>
             </div>
         </div>
