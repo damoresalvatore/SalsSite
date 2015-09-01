@@ -4,6 +4,8 @@ function addTable(whichOne) {
         var currentgame = result.games[whichOne];
         var calculations = 0;
         var money = 0;
+        var moneyTxt = "";
+        var reachedTxt = "";
         
         console.log(result);
         // Check if game num is same
@@ -12,6 +14,7 @@ function addTable(whichOne) {
         
         if (result.currentgamenum == whichOne){
             calculations = result.games[whichOne].baseline - result.total;
+            $("#TLOZ"+whichOne+"").css("background-color", "teal");
         } else {
             calculations = 0;
         }
@@ -19,9 +22,18 @@ function addTable(whichOne) {
         for(j=0;j<currentgame.incentives.length;j++){
             money = currentgame.incentives[j].money + calculations;
             if (money < 0) {
-                money = 0;
+                moneyTxt = "None";
+            } else {
+                moneyTxt = "" + money + "$";
             }
-            ($("#TLOZ"+whichOne +" tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+money+"</td><td>"+currentgame.incentives[j].complete+"</td></tr>");
+            
+            if (currentgame.incentives[j].complete == true) {
+                reachedTxt ="Reached!";
+            } else {
+                reachedTxt ="Almost!";
+            }
+                
+            ($("#TLOZ"+whichOne +" tbody")).append("<tr><td>"+currentgame.incentives[j].desc+"</td><td>"+moneyTxt+"</td><td>"+reachedTxt+"</td></tr>");
         }
     });
 }

@@ -17,6 +17,21 @@
         <div class="row" style="height:60px">
             
         </div>
+        <div class="row">
+            <div class="col-md-7" style="padding-left:0px;padding-right:0px">
+                <iframe src="http://www.twitch.tv/UpATreeZelda/embed" frameborder=0 scrolling="no" height=400px width="100%" style="margin-top:15px;"></iframe>
+            </div>
+            <div class="col-md-4 col-md-offset-1 bckgrdItems" style="height:400px;">
+                <h1 style="text-align:center;font-family:impact;font-size:120px;padding-top:30px;">Total:</h1>
+                <h1 id="currentTotal"style="text-align:center;font-family:impact;font-size:120px;"></h1>
+                <script>
+                    $.getJSON("general.json", function(result){
+                        $("#currentTotal").text("" + result.total + "$");
+                    })
+
+                </script>
+            </div>
+        </div>
 <!--   Add stream and total here    -->
         
         <div class="row">
@@ -100,7 +115,7 @@
                       <tr>
                         <th>Incentive</th>
                         <th>Required</th>
-                        <th>Reached</th>
+                        <th>Status</th>
                       </tr>
                     </thead>
                     <tbody>
