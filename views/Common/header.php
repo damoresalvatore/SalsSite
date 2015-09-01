@@ -17,6 +17,7 @@
             <li><a href="/views/Streamerino/">Theatre</a></li> 
             <li><a href="http://www.twitter.com/UpATreeZelda">Twitter</a></li>
             <li><a href="http://www.facebook.com/UpATreeZelda">Facebook</a></li>
+            <li><a href="/views/Marathon/">Marathon</a></li> 
           </ul>
 <!--Use if we want things on the right.-->
             

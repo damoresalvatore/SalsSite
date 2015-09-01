@@ -1,0 +1,16 @@
+html,body {
+    background-color: #1a1a1a;
+    width: 99%;
+    color: white;
+}
+
+.bckgrdItems {
+    background-color: #000d1f;
+    margin-top: 15px;
+    border-style: solid;
+    border-color: rgba(255,255,255,.3);
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: dimgrey;
+ }
