@@ -1,6 +1,6 @@
 html,body {
     height:100%;
-    background-color: #404040;
+    background-color: #1a1a1a;
     width: 99%;
 }
 
@@ -18,7 +18,11 @@ html,body {
 }
 
 .backaccents {
-        background-color:#000d1f;
+        background-color:#04152c;
+}
+
+.titleaccents {
+        background-color:#00060f;
 }
 
 .streamtitle {
@@ -31,7 +35,8 @@ html,body {
     font-size: 30px;
     overflow: hidden;
     color: whitesmoke;
-    font-family: Impact;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
 }
 
 #stream{
@@ -63,24 +68,27 @@ html,body {
     text-align: left;
     font-size: 30px;
     color: whitesmoke;
-    font-family: Impact;
+    font-family: 'PT Sans', sans-serif;
     font-weight: bold;
 }
 
 #gametitle{
     margin-right: 10px;
     font-size: 20px;
-    color: tan;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    color: white;
 }
 
 #testviewer {
 /*    text-align:center;*/
     padding-bottom: 10px;
+    padding-top:1px;
+    font-size: 25px;
     text-align: left;
-    color: tan;
-/*    font-family: Arial;*/
-/*    font-weight: bold;*/
-    color: saddlebrown;
+    font-family: 'PT Sans', sans-serif;
+    color: #b87dc3;
+
 }
 
 .chat {

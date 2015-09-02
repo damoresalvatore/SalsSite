@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-3.3.4-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="streams.css">
-  <script src="../../assets/jquery-2.1.1.js"></script>
-  <script src="../../assets/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="streams.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="streams.css">
+    <link href="https://fonts.goog<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>leapis.com/css?family=PT+Sans" rel='stylesheet' type='text/css'>
+    <script src="../../assets/jquery-2.1.1.js"></script>
+    <script src="../../assets/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="streams.js"></script>
 </head>
 <body>
     
@@ -39,13 +40,13 @@
         <div class="container" id="maincontent">
                 <div class="row" >
 <!--                The title for the stream, located above the stream itself    -->
-                    <div class="col-xs-12 streamtitle backaccents">
+                    <div class="col-xs-12 streamtitle titleaccents">
                         hello
                     </div>
                     
                     <div class="col-xs-12 stream2">
                         <div id="stream">
-                            <iframe src="http://www.twitch.tv/UpATreeZelda/embed" frameborder=0 scrolling="no" height=400px width="100%">
+                            <iframe src="http://www.twitch.tv/upatreezelda/embed" frameborder=0 scrolling="no" height=400px width="100%">
                             </iframe>
                         </div>
                     </div>
@@ -76,7 +77,7 @@
                     <div class="col-md-5">
 <!--               Twitterino widget -->
                         <div class="row">
-                            <div class="col-xs-12 twittertitle backaccents">
+                            <div class="col-xs-12 twittertitle titleaccents">
                                 Twitter                    
                             </div>
                         </div>
@@ -94,7 +95,7 @@
                     <div class="col-md-7">
                         
                         <div class="row">
-                            <div class="col-xs-12 songtitle backaccents">
+                            <div class="col-xs-12 songtitle titleaccents">
                                 Music                    
                             </div>
                         </div>
@@ -148,7 +149,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 replaytitle backaccents">
+                    <div class="col-xs-12 replaytitle titleaccents">
                         Last Match                   
                     </div>
                 </div>

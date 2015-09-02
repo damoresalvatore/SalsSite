@@ -25,10 +25,12 @@ function songmanager() {
 //                        data.recenttracks.track
         });
     }
-    setInterval(myvar, 5000);
+    myvar();
+    setInterval(myvar, 10000);
 }
 
 function streamInfo() {
+    var myvar = function(){
 $.getJSON('https://api.twitch.tv/kraken/streams/UpATreeZelda?callback=?', function(channel) {
         if (channel["stream"] == null) { 
         //THEY ARE OFFLINE DO WHATEVER HERE
@@ -51,11 +53,14 @@ $.getJSON('https://api.twitch.tv/kraken/streams/UpATreeZelda?callback=?', functi
         //THEY ARE ONLINE DO WHATEVER HERE
             $(".streamtitle").text(channel.stream.channel.status);
             $("#gametitle").text(channel.stream.game);
-            $("#testviewer").text("Current viewers: " + channel.stream.viewers);
+            $("#testviewer").text(channel.stream.viewers + " People people are currently viewing");
 //                                console.log(data);
 //                                console.log(channel);
 //                                console.log("Online");
         }});
+    }
+    myvar();
+    setInterval(myvar,10000);
 }
 
 function replaystats() {

@@ -1,5 +1,7 @@
 <!-- This is our pages title bar, Pretty slick-->
 <link rel="stylesheet" type="text/css" href="../Common/header.css">
+    <link href="https://fonts.goog<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>leapis.com/css?family=PT+Sans" rel='stylesheet' type='text/css'>
+
 <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
