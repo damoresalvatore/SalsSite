@@ -14,7 +14,7 @@ function addTable(whichOne) {
         
         if (result.currentgamenum == whichOne){
             calculations = result.games[whichOne].baseline - result.total;
-            $("#TLOZ"+whichOne+"").css("background-color", "teal");
+            $("#TLOZ"+whichOne+"").css("background-color", "#154986");
         } else {
             calculations = 0;
         }

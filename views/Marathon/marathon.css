@@ -5,7 +5,7 @@ html,body {
 }
 
 .bckgrdItems {
-    background-color: #000d1f;
+    background-color: #04152c;
     margin-top: 15px;
     border-style: solid;
     border-color: rgba(255,255,255,.3);
@@ -14,3 +14,28 @@ html,body {
 .table-striped>tbody>tr:nth-of-type(odd) {
    background-color: dimgrey;
  }
+
+.columnRight {
+    border-left:hidden;
+}
+
+.columnLeft {
+    border-right: hidden;
+}
+
+@media screen and (max-width: 991px)
+{
+    .leftGuys {
+        margin-right:-25px;
+    }
+    
+    .columnRight {
+        border-left: solid;
+        border-color: rgba(255,255,255,.3);
+    }
+
+    .columnLeft {
+        border-right: solid;
+        border-color: rgba(255,255,255,.3);
+    }
+}
