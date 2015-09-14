@@ -2,13 +2,16 @@ html,body {
     background-color: #1a1a1a;
     width: 99%;
     color: white;
+        font-family: 'PT Sans', sans-serif;
+
 }
 
 .bckgrdItems {
     background-color: #04152c;
     margin-top: 15px;
     border-style: solid;
-    border-color: rgba(255,255,255,.3);
+    border-color: black;
+/*        rgba(255,255,255,.3);*/
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {

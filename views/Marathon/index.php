@@ -5,6 +5,7 @@
     <script src="../../assets/jquery-2.1.1.js"></script>
     <script src="../../assets/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
     <script src="marathon.js"></script>
+    <link href="https://fonts.goog<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700' rel='stylesheet' type='text/css'>leapis.com/css?family=PT+Sans" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="../../assets/bootstrap-3.3.4-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="marathon.css">
 </head>
@@ -30,6 +31,17 @@
                     })
 
                 </script>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-7 bckgrdItems" style="background-image:url('OneWalk.jpg');height:250px;background-repeat:no-repeat; background-color:white;background-position: center;border-right:hidden;">
+                
+            </div>
+            <div class="col-xs-5 bckgrdItems" style="height:250px;padding:20px;border-left:hidden;">
+                The OneWalk for Cancer is a 25 Km walk, to support cancer research. It is a day long event, where thousands attend. My mother, and Sisters do this walk each year, and all funds raised by our charity marathon, will go towards sponsoring them in the next walk. You can find more information on the charity here: www.onewalk.ca/.<br>
+                <br>
+                The One Walk specifically supports the Princess Margaret Cancer Centre, and this year they successfully raised over 7.5 Million dollars, lets contribute to that, shall we?
             </div>
         </div>
 <!--   Add stream and total here    -->
