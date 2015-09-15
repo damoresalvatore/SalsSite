@@ -38,29 +38,34 @@
             <div class="col-xs-7 bckgrdItems" style="background-image:url('OneWalk.jpg');height:250px;background-repeat:no-repeat; background-color:white;background-position: center;border-right:hidden;">
                 
             </div>
-            <div class="col-xs-5 bckgrdItems" style="height:250px;padding:20px;border-left:hidden;">
+            <div class="col-xs-5 bckgrdItems" style="height:250px;padding:20px;border-left:hidden;overflow:hidden;">
                 The OneWalk for Cancer is a 25 Km walk, to support cancer research. It is a day long event, where thousands attend. My mother, and Sisters do this walk each year, and all funds raised by our charity marathon, will go towards sponsoring them in the next walk. You can find more information on the charity here: www.onewalk.ca/.<br>
                 <br>
                 The One Walk specifically supports the Princess Margaret Cancer Centre, and this year they successfully raised over 7.5 Million dollars, lets contribute to that, shall we?
             </div>
         </div>
 <!--   Add stream and total here    -->
-        
         <div class="row">
-            <div class="col-md-5 leftGuys" style="height:300px;padding-right:25px;padding-left:0px;background-clip:content-box;">
-                <div class="bckgrdItems" style="padding:20px;height:100%;">
+            <div class="col-xs-4 bckgrdItems" style="background-image:url('LOGOOOO.png');height:300px;background-repeat:no-repeat;background-position: center;border-right:hidden;background-size: auto 100%;background-color:black;">
+            </div>
+            <div class="col-xs-8 bckgrdItems" style="height:300px;border-left:hidden;overflow:hidden;">
                     <p><br>Welcome to the 2015 Touring Hyrule: Summer<br><br>
                 
-                    Here you can find our schedule, currently met/unmet incentives, and also our donation link. 
+                    We are a charity marathon that runs Bi-Annually, and plays Zelda for 72 hours. Some of us are experienced with the games at hand, others, not so much. This will be our fifth Marathon, and I don't intend to stop here. This particular marathon, I'm going for a different approach. I hope that you enjoy the host/co-host setup, and I hope it can continue in the future!
+                        
+                    <br><br>
+                        
+                    You can find our schedule, currently met/unmet incentives, and also our donation link. 
                     
                     <br><br>We hope you will thoroughly enjoy yourselves, as you watch our team of moderately experienced Zelda players, play through their games with varying restrictions and objectives. All brought on by the viewers good will!
                 </p>
-                </div>
                 
             </div>
-            <div class="col-md-7 bckgrdItems" style="height:300px;">
+        </div>
+        <div class="row">
+            <div class="col-md-12 bckgrdItems" style="height:200px;">
                 <a href="https://www.twitchalerts.com/donate/upatreezelda">
-                    <img src="Donate.png" style="display:block;margin:0 auto;">
+                    <img src="Donate.png" style="display:block;margin:0 auto;height:100%;">
                 </a>
             </div>
         </div>
